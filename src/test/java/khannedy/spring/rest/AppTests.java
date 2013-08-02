@@ -34,6 +34,6 @@ public class AppTests {
     public void simple() throws Exception {
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("hello"));
+                .andExpect(content().string("follow my twitter @khannedy"));
     }
 }
